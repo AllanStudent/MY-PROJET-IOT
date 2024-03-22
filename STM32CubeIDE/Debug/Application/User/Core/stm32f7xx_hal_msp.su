@@ -1,0 +1,15 @@
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:65:6:HAL_MspInit	8	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:89:6:HAL_CRC_MspInit	8	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:111:6:HAL_CRC_MspDeInit	0	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:133:6:HAL_DMA2D_MspInit	16	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:158:6:HAL_DMA2D_MspDeInit	0	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:183:6:HAL_I2C_MspInit	168	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:229:6:HAL_I2C_MspDeInit	8	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:260:6:HAL_LTDC_MspInit	192	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:377:6:HAL_LTDC_MspDeInit	8	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:446:6:HAL_QSPI_MspInit	64	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:509:6:HAL_QSPI_MspDeInit	8	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:546:6:HAL_UART_MspInit	200	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:635:6:HAL_UART_MspDeInit	8	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:786:6:HAL_SDRAM_MspInit	48	static
+D:/ISEN/ToucheGFXProjects/MyApplication_10/Core/Src/stm32f7xx_hal_msp.c:872:6:HAL_SDRAM_MspDeInit	8	static
