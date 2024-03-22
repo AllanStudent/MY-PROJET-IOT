@@ -176,7 +176,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   printf("bienvenue\r\n");
   while(1){
-	  printf("boucle\r\n");
+//	  printf("boucle\r\n");
 //	  HAL_GPIO_TogglePin(SPEAKER_GPIO_Port, SPEAKER_Pin);
 	  HAL_Delay(500);
 	  sensor_value = HAL_GPIO_ReadPin(CAPTEURDEUX_GPIO_Port,CAPTEURDEUX_Pin);
@@ -192,7 +192,7 @@ int main(void)
 		HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET); // Allumer la LED sur PC13
 		HAL_GPIO_WritePin(SPEAKER_GPIO_Port, SPEAKER_Pin, GPIO_PIN_RESET);
 //		HAL_GPIO_TogglePin(SPEAKER_GPIO_Port, SPEAKER_Pin);
-		printf("Il y adu mopuvement\r\n");
+		printf("Il y a du mouvement\r\n\n");
 	  }
 	  else
 	  {
@@ -201,7 +201,7 @@ int main(void)
 		HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET); // Éteindre la LED sur PC13
 		HAL_GPIO_WritePin(SPEAKER_GPIO_Port, SPEAKER_Pin, GPIO_PIN_SET);
 //		HAL_GPIO_TogglePin(SPEAKER_GPIO_Port, SPEAKER_Pin);
-		printf("Pas de mouvement\r\n");
+		printf("Pas de mouvement\r\n\n");
 	  }
 
 
@@ -785,17 +785,11 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(MCU_ACTIVE_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : capteurTROIS_Pin CAPTEURDEUX_Pin */
-  GPIO_InitStruct.Pin = capteurTROIS_Pin|CAPTEURDEUX_Pin;
+  /*Configure GPIO pin : CAPTEURDEUX_Pin */
+  GPIO_InitStruct.Pin = CAPTEURDEUX_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : CAPTEUR_Pin */
-  GPIO_InitStruct.Pin = CAPTEUR_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(CAPTEUR_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(CAPTEURDEUX_GPIO_Port, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

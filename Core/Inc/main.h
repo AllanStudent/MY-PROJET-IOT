@@ -74,12 +74,8 @@ void Error_Handler(void);
 #define SPEAKER_GPIO_Port GPIOG
 #define MCU_ACTIVE_Pin GPIO_PIN_6
 #define MCU_ACTIVE_GPIO_Port GPIOG
-#define capteurTROIS_Pin GPIO_PIN_10
-#define capteurTROIS_GPIO_Port GPIOF
 #define CAPTEURDEUX_Pin GPIO_PIN_9
 #define CAPTEURDEUX_GPIO_Port GPIOF
-#define CAPTEUR_Pin GPIO_PIN_4
-#define CAPTEUR_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
